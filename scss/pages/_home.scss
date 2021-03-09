@@ -110,7 +110,9 @@
   &__block3{
     &__body{
       height: 926px;
-      overflow: scroll;
+      //overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
     }
     &__footer{
       padding: 15px;

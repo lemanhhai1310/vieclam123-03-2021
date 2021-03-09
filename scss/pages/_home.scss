@@ -172,6 +172,13 @@
     border-radius: 4px;
     padding: 20px;
   }
+  &__box1{
+    margin-top: 10px;
+    &__link{
+      color: #133f77;
+      @extend .fz-14;
+    }
+  }
 }
 .slide2{
   .owl-nav{

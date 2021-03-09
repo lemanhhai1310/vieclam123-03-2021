@@ -318,7 +318,7 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-            <div class="text-right"><a href="">Xem thêm >></a></div>
+            <div class="text-right home__box1"><a href="" class="home__box1__link">Xem thêm >></a></div>
         </div>
         <script>
           $('.slide1').owlCarousel({

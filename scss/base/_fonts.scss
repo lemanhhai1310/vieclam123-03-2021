@@ -1,0 +1,24 @@
+/**
+ * --------------------------------------------------------------------
+ * Arial
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Arial Regular';
+  font-display: auto;
+  src:local('Arial Regular'), url('fonts/Arial/arial.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
+ * Roboto
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Roboto Regular';
+  font-display: auto;
+  src:local('Roboto Regular'), url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}

@@ -258,6 +258,7 @@
       &__txt{
         color: #000000;
         @extend .fz-18;
+        min-height: 21px;
       }
       &__tags{
         font-size: 14px;

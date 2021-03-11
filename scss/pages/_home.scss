@@ -115,16 +115,17 @@
       overflow-x: hidden;
       overflow-y: scroll;
       &::-webkit-scrollbar {
-        width: 5px;
+        width: 7px;
       }
       &::-webkit-scrollbar-track {
         background: #f1f1f1;
       }
       &::-webkit-scrollbar-thumb {
-        background: #888;
+        background: #a7a7a7;
+        border-radius: 3.5px;
       }
       &::-webkit-scrollbar-thumb:hover {
-        background: #555;
+        background: #a7a7a7;
       }
     }
     &__footer{

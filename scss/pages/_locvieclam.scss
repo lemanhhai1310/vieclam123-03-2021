@@ -66,6 +66,13 @@
       padding-bottom: 30px;
     }
   }
+  &__row2{
+    $x1: 2px;
+    margin: -#{$x1/2};
+    >*{
+      padding: #{$x1/2};
+    }
+  }
   &__row3{
     $x1: 3px;
     margin: -#{$x1/2};

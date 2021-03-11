@@ -3,11 +3,11 @@
 <div class="locvieclam__section1">
     <div class="container">
         <div class="locvieclam__box3">
-            <div class="row align-items-center locvieclam__row3">
+            <div class="row align-items-center mb-1 locvieclam__row3">
                 <div class="col">
                     <h2 class="locvieclam__title"><span class="text-uppercase">Danh sách việc làm</span></h2>
                 </div>
-                <div class="col-md-auto">
+                <div class="col-md-auto d-none d-md-block">
                     <div class="row locvieclam__row25 align-items-center">
                         <div class="col-auto">
                             <h5 class="locvieclam__box3__txt">Sắp xếp theo</h5>
@@ -27,6 +27,39 @@
                                         <div class="col">
                                             <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-none">
+                <div class="row locvieclam__row2">
+                    <div class="col-6">
+                        <div class="locvieclam__card__body__btnBox locvieclam__card__body__btnBox--sapxep">
+                            <img class="locvieclam__card__body__btnBox__arrow" src="images/icon_loc.png" alt="">
+                            <div class="row locvieclam__row14 align-items-center">
+                                <div class="col">
+                                    <span class="txtSelect line-clamp-1 locvieclam__card__body__txt">Bộ Lọc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
+                            <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">
+                                <option>Sắp xếp</option>
+                                <option>Lương từ cao tới thấp</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <div class="locvieclam__card__body__btnBox locvieclam__card__body__btnBox--sapxep">
+                                <img class="locvieclam__card__body__btnBox__arrow" src="images/icon_sapxep.png" alt="">
+                                <div class="row locvieclam__row14 align-items-center">
+                                    <div class="col">
+                                        <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
                                     </div>
                                 </div>
                             </div>

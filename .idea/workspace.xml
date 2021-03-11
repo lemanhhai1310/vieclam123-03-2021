@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca8f943-39ed-44b4-be53-f961d0123bfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/icon_loc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_sapxep.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locvieclam.php" beforeDir="false" afterPath="$PROJECT_DIR$/locvieclam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_locvieclam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_locvieclam.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/cooken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" afterDir="false" />
@@ -82,7 +87,7 @@
       <workItem from="1615261772625" duration="7427000" />
       <workItem from="1615431207685" duration="15000" />
       <workItem from="1615431236481" duration="775000" />
-      <workItem from="1615432428974" duration="121000" />
+      <workItem from="1615432428974" duration="2818000" />
     </task>
     <servers />
   </component>

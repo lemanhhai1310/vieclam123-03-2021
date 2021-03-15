@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca8f943-39ed-44b4-be53-f961d0123bfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/css/uikit-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/css/uikit-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/css/uikit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/css/uikit.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/js/uikit-icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/js/uikit-icons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/js/uikit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uikit-3.6.17/js/uikit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/remove-button.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_locvieclam.html" beforeDir="false" afterPath="$PROJECT_DIR$/_locvieclam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locvieclam.php" beforeDir="false" afterPath="$PROJECT_DIR$/locvieclam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_locvieclam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_locvieclam.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/cooken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/workspace.xml" afterDir="false" />
@@ -105,7 +91,7 @@
       <workItem from="1615432428974" duration="3846000" />
       <workItem from="1615512447645" duration="408000" />
       <workItem from="1615769788548" duration="1914000" />
-      <workItem from="1615774283730" duration="1264000" />
+      <workItem from="1615774283730" duration="1493000" />
     </task>
     <servers />
   </component>

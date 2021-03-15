@@ -510,7 +510,7 @@
                 <!--/content-->
 
                 <!--sidebar-->
-                <div class="col-md-3 order-md-first">
+                <div class="col-md-3 order-md-first d-none d-md-block">
 
                     <!--Lọc theo mức lương-->
                     <div class="card locvieclam__card">

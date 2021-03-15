@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css?v=1615448269">
+    <link rel="stylesheet" href="style.css?v=1615775871">
     <!--JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <!-- UIkit JS -->
@@ -57,7 +57,7 @@
             <div class="d-md-none">
                 <div class="row locvieclam__row2">
                     <div class="col-6">
-                        <div class="locvieclam__card__body__btnBox locvieclam__card__body__btnBox--sapxep">
+                        <div class="menu locvieclam__card__body__btnBox locvieclam__card__body__btnBox--sapxep">
                             <img class="locvieclam__card__body__btnBox__arrow" src="images/icon_loc.png" alt="">
                             <div class="row locvieclam__row14 align-items-center">
                                 <div class="col">
@@ -65,7 +65,162 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="boxFillter subnav" uk-height-viewport="offset-top: true">
+                            <div class="boxFillter__bg">
+                                <div class="container">
+                                    <div class="text-right">
+                                        <a href="javascript: void(0)" class="boxFillter__btnRemove"><img src="images/remove-button.png" alt=""></a>
+                                    </div>
+                                    <!--Lọc theo mức lương-->
+                                    <div class="card locvieclam__card">
+                                        <div class="card-header locvieclam__card__header">
+                                            <span class="locvieclam__card__header__txt">Lọc theo mức lương</span>
+                                        </div>
+                                        <div class="card-body locvieclam__card__body">
+                                            <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
+                                                <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">
+                                                    <option>Chọn mức lương</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <div class="locvieclam__card__body__btnBox">
+                                                    <img class="locvieclam__card__body__btnBox__arrow" src="images/arrow1.png" alt="">
+                                                    <div class="row locvieclam__row14 align-items-center">
+                                                        <div class="col-auto">
+                                                            <div class="locvieclam__card__body__btnBox__bg">
+                                                                <img src="images/save-money.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/Lọc theo mức lương-->
+
+                                    <!--Lọc theo cấp bậc-->
+                                    <div class="card locvieclam__card">
+                                        <div class="card-header locvieclam__card__header">
+                                            <span class="locvieclam__card__header__txt">Lọc theo cấp bậc</span>
+                                        </div>
+                                        <div class="card-body locvieclam__card__body">
+                                            <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
+                                                <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">
+                                                    <option>Chọn cấp bậc</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <div class="locvieclam__card__body__btnBox">
+                                                    <img class="locvieclam__card__body__btnBox__arrow" src="images/arrow1.png" alt="">
+                                                    <div class="row locvieclam__row14 align-items-center">
+                                                        <div class="col-auto">
+                                                            <div class="locvieclam__card__body__btnBox__bg">
+                                                                <img src="images/rank.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/Lọc theo cấp bậc-->
+
+                                    <!--Loại hình công việc-->
+                                    <div class="card locvieclam__card">
+                                        <div class="card-header locvieclam__card__header">
+                                            <span class="locvieclam__card__header__txt">Loại hình công việc</span>
+                                        </div>
+                                        <div class="card-body locvieclam__card__body">
+                                            <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
+                                                <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">
+                                                    <option>Loại hình công việc</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <div class="locvieclam__card__body__btnBox">
+                                                    <img class="locvieclam__card__body__btnBox__arrow" src="images/arrow1.png" alt="">
+                                                    <div class="row locvieclam__row14 align-items-center">
+                                                        <div class="col-auto">
+                                                            <div class="locvieclam__card__body__btnBox__bg">
+                                                                <img src="images/portfolio.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/Loại hình công việc-->
+
+                                    <!--Kinh nghiệm làm việc-->
+                                    <div class="card locvieclam__card">
+                                        <div class="card-header locvieclam__card__header">
+                                            <span class="locvieclam__card__header__txt">Kinh nghiệm làm việc</span>
+                                        </div>
+                                        <div class="card-body locvieclam__card__body">
+                                            <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
+                                                <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">
+                                                    <option>Kinh nghiệm làm việc</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <div class="locvieclam__card__body__btnBox">
+                                                    <img class="locvieclam__card__body__btnBox__arrow" src="images/arrow1.png" alt="">
+                                                    <div class="row locvieclam__row14 align-items-center">
+                                                        <div class="col-auto">
+                                                            <div class="locvieclam__card__body__btnBox__bg">
+                                                                <img src="images/candidate.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <span class="txtSelect line-clamp-1 locvieclam__card__body__txt"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/Kinh nghiệm làm việc-->
+                                    <div class="text-center mt-3">
+                                        <a href="" class="home__block3__btn btn btn-secondary">Lọc việc làm phù hợp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <script>
+                      $( document ).ready(function() {
+                        console.log( "ready!" );
+                        $(".menu").on("click", function () {
+                          UIkit.heightViewport('.subnav', {
+                            offsetTop: true,
+                          });
+                          $(".subnav").slideToggle();
+                          // $("body").toggleClass("overflow-hidden");
+                        });
+                        $(".boxFillter__btnRemove").click(function () {
+                          $(".subnav").slideToggle();
+                          // $("body").toggleClass("overflow-hidden");
+                        });
+                      });
+                    </script>
                     <div class="col-6">
                         <div class="position-relative" uk-form-custom="target: > * > * > * > span;">
                             <select class="locvieclam__card__body__select form-control" id="exampleFormControlSelect1">

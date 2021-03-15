@@ -299,3 +299,27 @@
     }
   }
 }
+.boxFillter{
+  display: none;
+  position: absolute;
+  background:rgba(34, 34, 34, .8);
+  top: 100%;
+  left: -14px;
+  right: 0;
+  width: 100vw;
+  //height: 100vh;
+  z-index: 10;
+  overflow: hidden;
+  overflow-y: scroll;
+  &__btnRemove{
+    img{
+      width: 20px;
+    }
+  }
+  &__bg{
+    background-color: #fff;
+    min-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

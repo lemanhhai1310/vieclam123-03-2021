@@ -4,8 +4,6 @@
     <list default="true" id="aca8f943-39ed-44b4-be53-f961d0123bfc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locvieclam.php" beforeDir="false" afterPath="$PROJECT_DIR$/locvieclam.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/cooken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03/hopgiaygiare/.idea/workspace.xml" afterDir="false" />
@@ -91,7 +89,7 @@
       <workItem from="1615432428974" duration="3846000" />
       <workItem from="1615512447645" duration="408000" />
       <workItem from="1615769788548" duration="1914000" />
-      <workItem from="1615774283730" duration="1493000" />
+      <workItem from="1615774283730" duration="1593000" />
     </task>
     <servers />
   </component>

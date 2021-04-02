@@ -40,7 +40,10 @@
         margin-top: 10px;
       }
       &__bg{
-        width: 102px;
+        width: 72px;
+        @include media-breakpoint-up('m'){
+          width: 102px;
+        }
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

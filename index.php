@@ -440,7 +440,7 @@
                 </div>
             </div>
         </div>
-        <div class="home__block3__margin53">
+        <div class="home__block3__margin53 home__block3__margin53--banner">
             <div class="row home__block3__row23">
                 <div class="col-md-6">
                     <a href=""><img class="w-100" src="images/Layer624.png" alt=""></a>

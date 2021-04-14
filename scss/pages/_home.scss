@@ -157,9 +157,11 @@
     }
     &__margin53{
       margin-bottom: 53px;
-      display: none;
-      @include media-breakpoint-up('m'){
-        display: block;
+      &--banner{
+        display: none;
+        @include media-breakpoint-up('m'){
+          display: block;
+        }
       }
     }
     &__row15{

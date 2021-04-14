@@ -113,10 +113,12 @@
   }
   &__block3{
     &__body{
-      height: 926px;
-      //overflow: scroll;
-      overflow-x: hidden;
-      overflow-y: scroll;
+      @include media-breakpoint-up('m'){
+        height: 926px;
+        //overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
       &::-webkit-scrollbar {
         width: 7px;
       }

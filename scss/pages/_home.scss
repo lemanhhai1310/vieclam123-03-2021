@@ -15,6 +15,9 @@
       margin-bottom: 20px;
       &__txt{
         @extend .fz-30;
+        @include media-breakpoint-down('s'){
+          font-size: 18px !important;
+        }
         display: inline-block;
         border-bottom: 1px solid #ffffff;
         line-height: (36/30);
@@ -80,6 +83,10 @@
     background-size: cover;
     background-position: center;
     color: #ffffff;
+    display: none;
+    @include media-breakpoint-up('m'){
+      display: block;
+    }
     &__box1{
       position: absolute;
       top: 0;
@@ -141,13 +148,19 @@
       background: #003f79;
       @extend .fz-14;
     }
-    padding-top: 38px;
     padding-bottom: 47px;
+    @include media-breakpoint-up('m'){
+      padding-top: 38px;
+    }
     &__margin34{
       margin-bottom: 34px;
     }
     &__margin53{
       margin-bottom: 53px;
+      display: none;
+      @include media-breakpoint-up('m'){
+        display: block;
+      }
     }
     &__row15{
       $x1: 15px;
